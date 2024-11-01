@@ -1,0 +1,28 @@
+-Whene you create a repo you can add a readme file 
+-the readme file is about sharing note and steps how to use or how to setup the project
+-the readme file will have the extention " .md " this mean " MarkDown " it a language you can use it to 
+edite your texte in the readme file 
+-EX: 
+# A first-level heading
+## A second-level heading
+### A third-level heading
+
+this link is to sherche more about markdown language in wikipidia : 
+https://en.wikipedia.org/wiki/Markdown
+
+
+this link if you want to learn more about how to writ a good Documentation in github readme file : 
+https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+How to clone a repo to your local computer : 
+1. go to the repo
+2. presse the button " <> Code "
+3. copy the link
+4. create a file where you will put this project
+5. open cmc and write : 
+mkdir project > to create a folder named by project
+cd project > to enter this folder
+git clone <link> to clone the repo here
+
+
+
