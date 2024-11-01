@@ -1,0 +1,17 @@
+they are some words that are used frecuently in git : 
+
+repository : is the pricipale place where you are saving your project
+baranche : is a branche of a repo (prancipal code or project)
+local repo : is your owne code in your computer saved in a folder or file in your computer
+Remote repo : is a server of a company where your are saving your project online
+commit : whene you finishe the changes that you do in the code you do comite to save it in your local repo 
+clone : to get a copy from the originale code and save it in your local dvice
+pushe : send your changes to remot repo
+pull : is to get code and chages in the code from the remot repo to your local repo
+pull requeste : to tell Others About Your changes to Pull it From Local To Remot repo after they check your changes and acksipte it 
+
+Important Notes : 
+-Create Repository For Every Project
+-Create a new branch for every feature or enhancement
+-No need to cennect to remote repo when working
+-Anyone can push and pull depend on permissions
