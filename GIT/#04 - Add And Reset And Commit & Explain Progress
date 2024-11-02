@@ -1,0 +1,15 @@
+we will some isontial commends in Git : 
+1. git status : is to see the status of your working directory and see your files
+2. git add : is to add your files to the Staging area
+3. git commit : is to commit your files to the local repo
+4. git push : to push your work to the remot repo
+
+==> after etche commend you have to write the name of the file that you want 
+EX : 
+git add project\main.css | you can use * to add all files
+
+==> if you want to remove a file from the staging area you can use the commend : 
+git reset head <file name>
+
+==> if you want to commit the project and add a message : 
+git commit -m " message "
