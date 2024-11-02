@@ -1,0 +1,9 @@
+
+
+==> To push your work to the remote repo your have to use the commend : 
+git push 
+but to use this commend correctly you need to know tow things : your branch name and your remote repo name
+1. git branch : to know all branche that you have in your local
+2. git remote -v : to know your the name of your remote repo
+EX : 
+git push < branch name >  < remote repo name >
