@@ -13,3 +13,10 @@ git reset head <file name>
 
 ==> if you want to commit the project and add a message : 
 git commit -m " message "
+
+!!! the comend line programe will ask you about your identety after commiting so you have to enter some information : 
+git config --global user.name   (Your Name)
+git config --global user.email   (your_email@example.com)
+
+==> To verify if the configuration was successful, you can run:
+git config --list
