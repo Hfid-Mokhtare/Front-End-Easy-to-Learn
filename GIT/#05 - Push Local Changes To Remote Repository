@@ -8,7 +8,10 @@ but to use this commend correctly you need to know tow things : your branch name
 EX : 
 git push < branch name >  < remote repo name >
 
-to change the remote : 
+==> to change the remote : 
 git remote add <name of the remote> <url>
 Ex:
-git remote add origin 
+git remote add origin https://github.com/Hfid-Mokhtare/Front-End-Easy-to-Learn.git
+
+==> to remove the remote : 
+git remote rm origin
