@@ -7,3 +7,8 @@ but to use this commend correctly you need to know tow things : your branch name
 2. git remote -v : to know your the name of your remote repo
 EX : 
 git push < branch name >  < remote repo name >
+
+to change the remote : 
+git remote add <name of the remote> <url>
+Ex:
+git remote add origin 
