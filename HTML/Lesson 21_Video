@@ -1,1 +1,50 @@
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Mohamed Ali Zeggaf" description="Mohamed Ali Zeggaf" />
+    <link rel="stylesheet" href="" />
+    <title>Mohamed Ali Zeggaf</title>
+    <style></style>
+    <script></script>
+  </head>
+
+  <!-- 
+  ==> you can add the source of the video inside the video 
+  tague 
+  Or add the <source> tague if you will add more than one
+  ==> we have to use diferente sources in cas if video file 
+  not compatible with the browvideoser or not found
+  ==> after adding the src attribute you have to add the 
+  type (MIME Type) for example : .MP4 => video/mp4
+  ==> in general all browsers are supurte .mp4 audio files
+
+  ==> You can add a (poster) attribut to your video to add a poster
+  ==> You can add a (track) attribut to your video if you want to add a translation file
+      kind => kind of the file
+      srclang => language of the file
+      label => this is for the back end it optional
+  ==> there is an other attribute calde  preload 
+
+  ==> you can ad the width and the hieght to your video
+  ==> you can add (controls) attribute to controle the video
+  ==> you can add (autoplay) attribute to play the video directely
+  ==> you can add (loop) attribute to play the video
+      agan whene it complet
+  ==> you can add (muted) attribute to mute the video sound whene start
+      
+ -->
+  <body>
+    <video controls width="500px" height="400px" loop muted>
+      <source
+        src="media/10.2.mp4"
+        type="audio/mpeg"
+      />
+      Your Browser Does not support Video tags 
+      <track src="my_file.vtt" kind="subtitles" srclang="en" label="English">
+      <track src="my_file.vtt" kind="subtitles" srclang="en" label="English" > 
+
+    </video>
+  </body>
+</html>
