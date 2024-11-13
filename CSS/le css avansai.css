@@ -1,1 +1,141 @@
+/* 1. Styles pour les états des inputs */
 
+/* Appliqué lorsqu'une case à cocher ou un bouton radio est sélectionné */
+input:checked {
+    outline: 2px solid green;
+  }
+  
+  /* Appliqué aux éléments désactivés */
+  input:disabled {
+    cursor: not-allowed;
+  }
+  
+  /* 2. Styles pour les états des éléments */
+  
+  /* Appliqué aux éléments sans contenu, ici pour afficher une bordure pour les paragraphes vides */
+  p:empty {
+    border: 2px dashed red;
+    height: 20px;
+  }
+  
+  /* Cible les éléments activés et utilisables, comme un champ
+   de texte disponible pour la saisie */
+  input:enabled {
+    border: 4px solid blue;
+  }
+  
+  /* 3. Styles pour l'ordre des éléments */
+  
+  /* Cible le premier élément de son type dans le conteneur parent */
+  p:first-of-type {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  /* Cible le dernier élément de son type dans le conteneur parent */
+  p:last-of-type {
+    color: red;
+    font-style: italic;
+  }
+  
+  /* Cible le deuxième élément de son type dans le conteneur parent */
+  p:nth-of-type(2) {
+    color: purple;
+    text-decoration: underline;
+  }
+  
+  /* 4. Styles pour la validation des valeurs */
+  
+  /* Cible les champs dont la valeur est dans l'intervalle spécifié par min et max */
+  input:in-range {
+    background-color: lightgreen;
+  }
+  
+  /* Cible les champs dont la valeur est hors de l'intervalle spécifié */
+  input:out-of-range {
+    background-color: lightpink;
+  }
+  
+  /* Cible les champs avec des valeurs invalides,
+   comme une adresse e-mail incorrecte */
+  input:invalid {
+    border: 2px solid red;
+  }
+  
+  /* 5. Styles pour la position des enfants */
+  
+  /* Appliqué au dernier enfant dans le conteneur */
+  .container-2 p:last-child {
+    border: 2px solid blue;
+  }
+  
+  /* Appliqué au deuxième enfant dans le conteneur */
+  
+  /* Appliqué à l'avant-dernier enfant dans le conteneur */
+  p:nth-last-child(2) {
+    border-bottom: 2px dotted purple;
+  }
+  
+  /* 6. Styles pour la position des types */
+  
+  /* Appliqué à l'avant-dernier élément de son type dans le conteneur */
+  .type-test p:nth-last-of-type(2) {
+    background-color: yellow;
+  }
+  
+  /* 7. Styles pour la négation */
+  
+  /* Cible tous les éléments qui ne sont pas des <p> */
+  .not-test :not(p) {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  /* 8. Styles pour les éléments uniques */
+  
+  /* Appliqué à un élément qui est le seul de son type dans le conteneur parent */
+  .type-unique p:only-of-type {
+    border: 2px solid green;
+    padding: 10px;
+  }
+  
+  /* Appliqué à un élément qui est le seul enfant dans le conteneur parent */
+  .unique p:only-child {
+    border: 2px solid orange;
+    padding: 10px;
+  }
+  
+  /* 9. Styles pour les champs optionnels */
+  
+  /* Cible les champs sans attribut 'required' */
+  input[type=date]:optional {
+    background-color:coral;
+  }
+  
+  
+  /* Styles généraux pour la mise en page */
+  section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Conteneurs pour les exemples */
+  .container,
+  .container-2,
+  .type-test {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .pseudo{
+    color: green;
+    }
+
+  
+  
