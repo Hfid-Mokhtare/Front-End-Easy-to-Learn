@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Complet des Pseudo-classes CSS</title>
+    <link rel="stylesheet" href="style-pseudo1.css">
+</head>
+<body>
+  
+    <section>
+        <h2> Section 1: Test des états des inputs</h2>
+        <h4><span class="pseudo">:checked</span> Appliqué lorsqu'une case à cocher ou un bouton radio est sélectionné </h4>
+        <input type="checkbox" id="check1"> <label for="check1">Checkbox active</label><br>
+        <h4><span class="pseudo">:disabled</span> Appliqué aux éléments désactivés</h4>
+        <input type="checkbox" id="check2" disabled> <label for="check2">Checkbox désactivée</label>
+    </section>
+
+    <section>
+        <h2>Section 2: Test des états des éléments  </h2>
+        <h4><span class="pseudo">:empty</span> Ce paragraphe est vide et sera stylisé par empty </h4>
+        <p></p>
+        <h4><span class="pseudo">:enabled</span> Ce champ est activé, donc :enabled s'applique</h4>
+        <input type="text" enabled> 
+    </section>
+
+
+    <section>
+        <h2>Section 3: Test des sélecteurs de type  </h2>
+        <div class="container">
+            <p>Stylisé par :first-of-type</p> 
+            <p>Stylisé par :nth-of-type(2)</p> 
+            <p>Troisième paragraphe</p>
+            <p> Stylisé par :nth-last-child(2)</p>
+            <p>Stylisé par :last-of-type</p> 
+        </div>
+    </section>
+
+   
+    <section>
+        <h2>Section 4: Test des validations de valeurs Test  et :out-of-range</h2>
+        <h4>Appliqué par <span class="pseudo">:in-range</span> ou <span class="pseudo">:out-of-range </span>selon la valeur/span> </h4>
+        <input type="number" min="1" max="10"> <!--  -->
+    </section>
+
+ 
+    <section>
+        <h2>Section 5: Test de validation </h2>
+        <h4>Test <span class="pseudo">:invalid </span></h4>
+        <input type="email" value="email-invalide"> 
+        <!-- Stylisé par :invalid si la valeur n'est pas 
+         une adresse e-mail valide -->
+    </section>
+
+   
+    <section>
+        <h2>Section 6 : Test des sélecteurs d'enfants </h2>
+        <div class="container-2">
+            <p>Premier élément</p>
+            <p>:nth-last-child(2)</p> <!-- Stylisé par nth-last-child(2) -->
+            <p>:last-child</p> <!-- Stylisé par  :last-child-->
+        </div>
+    </section>
+
+    <!--  -->
+    <section>
+        <h2>Section 7: Test du sélecteur de négation</h2>
+        <div class="not-test">
+            <p>Paragraphe 1</p>
+            <span>:not(p)</span> <!-- Stylisé par :not(p), donc en orange -->
+            <p>Paragraphe 2</p>
+        </div>
+    </section>
+
+    <!-- Section 8: Test des sélecteurs de type inversés -->
+    <section>
+        <h2>Section 8: Test des sélecteurs de type inversés</h2>
+        <div class="type-test">
+            <p>Premier p</p>
+            <p>Deuxième p</p>
+            <p>Troisième p : Stylisé par :nth-last-of-type(2)</p> <!-- Stylisé par :nth-last-of-type(2) -->
+            <p>Quatrième p</p>
+        </div>
+    </section>
+
+    <!-- Section 9: Test des éléments uniques -->
+    <section>
+        <h2>Test :only-of-type et :only-child</h2>
+        <div class="unique">
+            <p>Paragraphe unique :only-child</p> <!-- Stylisé par :only-child car il est le seul enfant dans le div -->
+        </div>
+        <div class="type-unique">
+            <p>Un paragraphe :only-of-type</p> <!-- Stylisé par :only-of-type car c'est le seul <p> dans le div -->
+            <span>Un span</span>
+        </div>
+    </section>
+
+    <!-- Section 10: Test des champs optionnels -->
+    <section>
+        <h2>Test :optional</h2>
+        <label for="birth">Date of Birth:</label>
+        <input id="birth" name="birth" type="date" />
+    </section>
+</body>
+</html>
