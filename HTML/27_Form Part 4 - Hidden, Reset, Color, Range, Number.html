@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Mohamed Ali Zeggaf" content="Mohamed Ali Zeggaf" />
+    <link rel="stylesheet" href="" />
+    <title>Mohamed Ali Zeggaf</title>
+    <style></style>
+    <script></script>
+  </head>
+
+  <!-- 
+  ==> you can add a hidden input if you want to send
+      some data whithou the user see it
+  ==> reset input is to reset the form and delete all data
+  ==> you can add the color input
+  ==> you can add a range input
+      => add the min & max & step & value
+  ==> you can add a number input
+      => add the min & max & 
+ -->
+  <body>
+    <form action="file.php" method="post">
+      <label>user name</label>
+      <input
+        type="text"
+        required
+        name="user_name"
+        placeholder="enter your name here : "
+      />
+      <label>enter your age : </label>
+      <input type="number" min="0" max="100" step="5" value="5" name="age" />
+      <label>color</label>
+      <input type="color" name="color" />
+
+      <input type="submit" value="Save" />
+      <input type="reset" value="modify" />
+    </form>
+  </body>
+</html>
