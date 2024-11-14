@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire d'Inscription</title>
+  </head>
+  <style>
+    #formulaire {
+      width: 500px;
+      background-color: rgb(59, 190, 223);
+      border-radius: 2px 100px 2px 2px;
+      box-shadow: 2px 2px 8px rgb(0, 0, 0);
+    }
+    fieldset {
+      border: none;
+    }
+    legend {
+      color: blue;
+    }
+    table{
+        width:429;
+    }
+  </style>
+
+  <body>
+    <div id="formulaire">
+      <form>
+        <fieldset>
+          <legend>
+            <big><b>Inscription</b></big>
+          </legend>
+          <table width="429">
+            <tbody>
+              <tr>
+                <td width="147">Nom</td>
+                <td width="266">
+                  <input
+                    type="text"
+                    name="textfield"
+                    id="textfield"
+                    size="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Prénom</td>
+                <td>
+                  <input
+                    type="text"
+                    name="textfield2"
+                    id="textfield2"
+                    size="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Sexe</td>
+                <td>
+                  <input type="radio" name="radio" id="M" value="Féminin" />
+                  <label for="M">Féminin </label>
+                  <input type="radio" name="radio" id="F" value="Masculin" />
+                  <label for="F">Masculin </label>
+                </td>
+              </tr>
+              <tr>
+                <td>Date de naissance</td>
+                <td><input type="date" name="date" id="date" /></td>
+              </tr>
+              <tr>
+                <td>Niveau d'étude</td>
+                <td>
+                  <select name="select" id="select">
+                    <optgroup label="Secondaire">
+                      <option>3ème année Collège</option>
+                      <option>2ème année Lycée</option>
+                    </optgroup>
+                    <optgroup label="Universitaire">
+                      <option>Licence</option>
+                      <option>Master</option>
+                      <option>Doctorat</option>
+                    </optgroup>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Spécialité</td>
+                <td>
+                  <input list="Specialite" />
+                  <datalist id="Specialite">
+                    <option value="Economie"></option>
+                    <option value="Informatique"></option>
+                    <option value="Chimie"></option>
+                    <option value="Electronique"></option>
+                    <option value="Marketing"></option>
+                  </datalist>
+                </td>
+              </tr>
+              <tr>
+                <td>Téléphone</td>
+                <td><input type="tel" name="tel" id="tel" size="30" /></td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>
+                  <input type="email" name="email" id="email" size="30" />
+                </td>
+              </tr>
+              <tr>
+                <td>Site web personnel</td>
+                <td><input type="url" name="url" id="url" size="30" /></td>
+              </tr>
+              <tr>
+                <td>Adresse</td>
+                <td>
+                  <textarea
+                    name="textarea"
+                    id="textarea"
+                    cols="40"
+                    rows="3"
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>Photo</td>
+                <td>
+                  <input
+                    type="file"
+                    name="fileField"
+                    id="fileField"
+                    size="30"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
 
