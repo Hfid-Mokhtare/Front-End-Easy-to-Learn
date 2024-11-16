@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Mohamed Ali Zeggaf" content="Mohamed Ali Zeggaf" />
+    <link rel="stylesheet" href="" />
+    <title>Mohamed Ali Zeggaf</title>
+    <style></style>
+    <script></script>
+  </head>
+
+  <!-- 
+==> You can add a liste using select element
+  => add the attributs name and id of select
+  => you can add your options inside selecte 
+    > add the value to send and a texte to shown
+  => you can make groups of options using the element optgroup
+    > add label to be shown inside optgroup 
+==> you can add the element multiple if you want the user to enter a lot of choisses
+==> you can add element selected inside an option to make thes option selected by default
+  
+==> you can add the element textarea
+ =>and the name & cols & rows & placeholder
+ -->
+  <body>
+    <form enctype="multipart/form-data" action="file.php" method="post">
+      <label for="project">select a project : </label>
+      <select name="project" id="project">
+        <optgroup label="C++ Projects">
+          <option value="Bank project" selected>Bank project</option>
+          <option value="Acronyms project">Acronyms project</option>
+          <option value="Mathe game project">Mathe game project</option>
+          <option value="Incription decreption project">
+            Incription decreption project
+          </option>
+        </optgroup>
+        <optgroup label="C# Projects">
+          <option value="Hospital managment project">
+            Hospital managment project
+          </option>
+          <option value="Gyme project">Gyme project</option>
+          <option value="Game project">Game project</option>
+          <option value="Binery project">Binery project</option>
+        </optgroup>
+        <optgroup label="Youtube Chanel">
+          <option value="C++ algorithems">C++ algorithems</option>
+          <option value="Python challenge">Python challenge</option>
+        </optgroup>
+      </select>
+
+      <textarea
+        name="comment"
+        id="comment"
+        placeholder="enter you comment here "
+      ></textarea>
+    </form>
+  </body>
+</html>
