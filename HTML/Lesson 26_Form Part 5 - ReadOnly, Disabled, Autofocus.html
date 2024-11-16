@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Mohamed Ali Zeggaf" content="Mohamed Ali Zeggaf" />
+    <link rel="stylesheet" href="" />
+    <title>Mohamed Ali Zeggaf</title>
+    <style></style>
+    <script></script>
+  </head>
+
+  <!-- 
+  ==> you can make an input readonly to be not modifedable
+  ==> you can add disabeld to an input to do not send the value of it
+  ==> you can add the attribute autofocus to an input area
+  ==> you can add minlength and maxlength
+  
+ -->
+  <body>
+    <form enctype="multipart/form-data" action="file.php" method="post">
+      <label>email : </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        required
+        value="aspnwcloud@gmail.com"
+        readonly
+        disabled
+      />
+      <label>user name : </label>
+      <input
+        type="text"
+        name="userN"
+        id="userN"
+        placeholder="enter your name"
+        required
+        autofocus
+      />
+      <label>Password : </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="enter your password"
+        required
+        minlength="6"
+        maxlength="10"
+      />
+      <br />
+      <input type="submit" value="Save" />
+      <input type="reset" value="modify" />
+    </form>
+  </body>
+</html>
