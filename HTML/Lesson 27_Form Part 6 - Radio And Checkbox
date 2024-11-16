@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Mohamed Ali Zeggaf" content="Mohamed Ali Zeggaf" />
+    <link rel="stylesheet" href="" />
+    <title>Mohamed Ali Zeggaf</title>
+    <style></style>
+    <script></script>
+  </head>
+
+  <!-- 
+  ==> you can add radio attribut 
+    => the label in case of radio input should be after the redio
+  ==> you can add attribut checked to an radio input
+  ==> to relate the label to the input you have to add an id & for
+  ==> you can add the input of type checkbox
+  
+ -->
+  <body>
+    <form enctype="multipart/form-data" action="file.php" method="post">
+      <div>
+        <h1>what is the right inswer :</h1>
+        <ol>
+          <li>
+            <label for="lin"
+              >Linux operating system is the moste populare os</label
+            >
+          </li>
+          <li>
+            <label for="win"
+              >Windows operating system is the moste populare os</label
+            >
+          </li>
+          <li>
+            <label for="mac"
+              >Mac operating system is the moste populare os</label
+            >
+          </li>
+        </ol>
+
+        <input type="radio" id="lin" name="os" value="Linux" />
+        <label>1</label>
+        <input type="radio" id="win" name="os" value="windows" />
+        <label>2</label>
+        <input type="radio" id="mac" name="os" value="Mac" />
+        <label>3</label>
+        <br /><br />
+        <input type="submit" value="save" />
+        <input type="reset" value="edit" />
+      </div>
+
+      <hr />
+
+      <div>
+        <h1>what is your prefer keybord:</h1>
+        <div>
+          <input type="checkbox" id="qwerty" name="os" value="Linux" />
+          <label for="qwerty">QWERTY</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="azerty" name="os" value="windows" />
+          <label for="azerty">AZERTY</label>
+        </div>
+        <div>
+          <input type="checkbox" id="bothe" name="os" value="Mac" />
+          <label for="bothe">Bothe</label>
+        </div>
+
+        <br /><br />
+        <input type="submit" value="save" />
+        <input type="reset" value="edit" />
+      </div>
+    </form>
+  </body>
+</html>
