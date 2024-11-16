@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Mohamed Ali Zeggaf" content="Mohamed Ali Zeggaf" />
+    <link rel="stylesheet" href="" />
+    <title>Mohamed Ali Zeggaf</title>
+    <style></style>
+    <script></script>
+  </head>
+
+  <!-- 
+==> input of type file to aplowd a file to the website
+
+==> input of type search is to search for a keyword inside the websit or in the internet
+ 
+==>input of type url to go to a place using a url
+
+==> input of type date to chose a date
+
+==> input of type month to chose a month
+
+-->
+  <body>
+    <form enctype="multipart/form-data" action="file.php" method="post">
+      <label for="file">chose a file to aplowd : </label>
+      <input type="file" id="file" name="file" />
+      <hr />
+      <label for="find">search for some thing : </label>
+      <input type="search" />
+      <hr />
+      <label for="find">search for some thing using a URL: </label>
+      <input type="url" />
+      <hr />
+      <label for="dat">enter a date : </label>
+      <input type="date" />
+      <hr />
+      <label for="monthe">enter a month : </label>
+      <input type="month" />
+    </form>
+  </body>
+</html>
+
