@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Mohamed Ali Zeggaf" content="Mohamed Ali Zeggaf" />
+    <link rel="stylesheet" href="" />
+    <title>Mohamed Ali Zeggaf</title>
+    <style></style>
+    <script></script>
+  </head>
+
+  <!-- 
+ ==> you can add the element novalidate to do a test for your form
+ ==> you can add target="_blank" to send and open data in a new page
+ ==> you can do an input of list
+  => add the name of this list
+  => give a name that will be shown whene data send
+==> add the element datalist (the datalist permet you to search for some think in the list)
+  => give the datalist an id (the same as the name of the list)
+  => add the element option
+    > you can only put the value of a list
+
+
+-->
+  <body>
+    <form
+      target="_blank"
+      novalidate
+      enctype="multipart/form-data"
+      novalidate
+      action="file.php"
+      method="post"
+      target="_self"
+    >
+      <select name="project" id="pro">
+        <optgroup label=" programming languages">
+          <option value="c++">C++</option>
+          <option value="py">Python</option>
+          <option value="C#">C#</option>
+          <option value="Go">Golang</option>
+        </optgroup>
+      </select>
+      <hr />
+      <input list="programming_language" name="prog" />
+      <datalist id="programming_language">
+        <option value="c++">it good for fondamentals</option>
+        <option value="py"></option>
+        <option value="C#"></option>
+        <option value="Go">Golang</option>
+      </datalist>
+      <hr />
+
+      <input type="submit" value="save" />
+    </form>
+  </body>
+</html>
