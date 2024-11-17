@@ -1,0 +1,4 @@
+in this cours i learned that there is some think calde the Accessibility of the website 
+Accessibility of the website is about making your website Accessible for every user 
+and there is some good practic to do that :
+you can look in the lightroom of the inspecte element of the browser
