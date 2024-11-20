@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire d'Inscription</title>
+    <style>
+     .parent_relativ{
+      background-color: #ddd;
+      padding:20px;
+      width: 400px;
+      position: relative;
+     }
+     .child{
+      padding:20px;
+      color:white;
+      border-radius: 5px;
+     }
+     .one{
+      background-color: #ef476f;
+     }
+     .two{
+      background-color: #f78c1f;
+      /* Position absolue par rapport a one and tree */
+      position:absolute;
+      right:0;
+     }
+     .tree{
+      background-color: #118ab2;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="parent_relativ">
+      <div class="child one"> ONE</div>
+      <div class="child two">TWO</div>
+      <div class="child tree">THREE</div>
+    </div>
+  </body>
+</html>
