@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>responsive designe</title>
+    <style>
+      .demo {
+        /* Empêche le dépassement du contenu hors de son conteneur */
+        overflow: hidden;
+        /* Définit la couleur de fond en bleu */
+        background-color: blue;
+      }
+      .demo a {
+        /* Positionne les éléments côte 
+        à côte horizontalement */
+        float: left;
+
+        /* Définit un affichage en bloc 
+        pour que l'élément prenne toute 
+        la largeur disponible */
+        display: block;
+
+        /* Change la couleur du texte en blanc */
+        color: white;
+
+        /* Centre le texte dans l'élément */
+        text-align: center;
+
+        /* Ajoute un espace interne autour du texte */
+        padding: 10px;
+
+        /* Supprime le soulignement des liens */
+        text-decoration: none;
+      }
+
+      /* Règle CSS pour les écrans ayant une largeur
+        maximale de 600px */
+      @media screen and (max-width: 600px) {
+        .demo a {
+          /* Annule l'effet du float pour permettre 
+          un affichage vertical */
+          float: name;
+
+          /* Les liens prennent 100% de la 
+          largeur du conteneur */
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="demo">
+      <a href="a">Acceuil</a>
+      <a href="a">A propos</a>
+      <a href="a">Tutoriels</a>
+      <a href="a">FAQ</a>
+      <a href="a">Videos</a>
+      <a href="a">Contact</a>
+    </div>
+  </body>
+</html>
