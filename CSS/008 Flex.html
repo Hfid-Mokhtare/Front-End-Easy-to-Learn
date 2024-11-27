@@ -140,13 +140,41 @@
         justify-content: center;
         flex-wrap:wrap;
       }
-
+      .conteneur16 {
+        height: 200px;
+        background-color: #ffe4c4;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+       
+      }
+      
       .element {
         border: 2px solid orange;
         padding: 10px;
         margin: 10px;
-        /* height: 20px; */
+        height: 20px;
       }
+
+      .element:nth-child(1) {
+        flex-shrink:0;
+      }
+
+      .element:nth-child(1) {
+        flex-grow:1;
+      }
+      .element:nth-child(2) {
+        flex-grow:2;
+      }
+      .element:nth-child(3) {
+        flex-grow:3;
+      }
+      .element:nth-child(4) {
+        flex-grow:3;
+        align-self: flex-start;
+
+      }
+
     </style>
   </head>
   <body>
@@ -261,6 +289,15 @@
       <div class="element">element 9</div>
       <div class="element">element 10</div>
       <div class="element">element 11</div>
+    </div>
+    <br />
+    <div class="conteneur14">
+      contenueur 16
+      <div class="element">element 1</div>
+      <div class="element">element 2</div>
+      <div class="element">element 3</div>
+      <div class="element">element 3</div>
+
     </div>
   </body>
 </html>
