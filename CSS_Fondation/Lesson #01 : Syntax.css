@@ -1,0 +1,28 @@
+
+<style>
+  p {
+    /* chose a selector */
+    color: red;
+    font-size: large;
+  }
+
+  .class_paragraphe {
+    /* use . if you have a class */
+    color: blue;
+    font-size: medium;
+  }
+  #id_paragraphe {
+    /* use # if you have an id */
+    color: blueviolet;
+    font-size: small;
+  }
+</style>
+
+----------------------------------------------------------------------
+
+<body>
+  <p>Hi this is a normal paragraphe</p>
+  <p class="class_paragraphe">Hi this is a normal paragraphe</p>
+  <p id="id_paragraphe">Hi this is a normal paragraphe</p>
+</body>
+  
