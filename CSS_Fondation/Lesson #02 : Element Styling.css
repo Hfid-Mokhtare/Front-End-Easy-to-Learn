@@ -1,0 +1,17 @@
+/* There is Tree Mothode to change the css style:  */
+
+/* 1 : inligne style ==> the stronger style */
+<p style="color: green;font-size: medium;">Hi this is a normal paragraphe</p>
+    
+/* 2 : external style ==> the proficionale way */
+      p {
+        color: red;
+        font-size: large;
+      }
+/* 3 : internal style ==> not proficionale */
+    <style>
+      p {
+        color: red;
+        font-size: large;
+      }
+    </style>
