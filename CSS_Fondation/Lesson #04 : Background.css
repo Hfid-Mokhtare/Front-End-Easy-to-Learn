@@ -1,0 +1,46 @@
+/* Color, Image, Repeat, Attachment, Position, Size */
+
+body {
+  background-image: url(media/25\ Ways\ to\ Get\ Rid\ of\ Clutter.png);
+  /* background-color is to change the background color of the div.. */
+
+  background-color: blue;
+  /* you can use the color name like "blue" or "red" */
+
+  background-color: rgb(255 0 0);
+  /* you can use rgb to set the color red green blue*/
+
+  background-color: rgb(255 0 0 /50%);
+  /* you can add the Alpha channel is about the opasity of the color */
+
+  background-repeat: no-repeat; /* to do not repeat the image in the background */
+  background-repeat: repeat-x; /* to repeat the image Horizontely */
+  background-repeat: repeat-y; /* to repeat the image Verticaly */
+  background-repeat: repeat; /* to repeat the image in all directions */
+  
+  background-attachment: fixed; /* the image will stay fixed in a position */
+  background-attachment: scroll; /* the image will scroll withe the content */
+
+  /* to change the position of the background image */
+  background-position: left top;
+  background-position: left center;
+  background-position: left bottom;
+
+  background-position: center top;
+  background-position: center center;
+  background-position: center bottom;
+
+  background-position: right top;
+  background-position: right center;
+  background-position: right bottom;
+
+  background-position: 500px 100px; /* 500px to move the image to right 100px to move the image to the bottom*/
+  background-position: 50% 50%; /* you can use the persentage like 50% 50%*/
+
+  /* to change the size of the background image */
+
+  background-size: cover; /* to fill all the view */
+  background-size: contain; /* to fill all the view but stay fully fisible */
+  background-size: 100px 100px; /* you can use px */
+  background-size: 100% 100%; /* or you can use persantage */
+}
