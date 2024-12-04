@@ -1,0 +1,12 @@
+/* ==> class and id : called Identifier */
+
+/* ==> you have give your class a good name :  */
+  class="user-paragraph"
+  class="User_Paragraph"
+  class="user_paragraph"
+
+/* ==> we use this file is responsible to change 
+the language of your website to arabic or an other languge: */
+
+  <link rel="stylesheet" href="rtl.css" />
+ 
