@@ -1,0 +1,29 @@
+ <style>
+      div {
+        /* background-color is to change the background color of the div.. */
+
+        background-color: blue; /* you can use the color name like "blue" or "red" */
+        
+        background-color: rgb(
+          255 0 0
+        ); /* you can use rgb to set the color red green blue*/
+        
+        background-color: rgb(
+          255 0 0 /50%
+        ); /* you can add the Alpha channel is about the opasity of the color */
+        
+        background-image: url(media/iMac\ -\ 3.png); /* to do an image in the background */
+        
+        background-repeat: no-repeat; /* to do not repeat the image in the background */
+        
+        background-repeat: repeat-x; /* to repeat the image Horizontely */
+        
+        background-repeat: repeat-y; /* to repeat the image Verticaly */
+        
+        background-repeat: repeat; /* to repeat the image in all directions */
+      }
+    </style>
+/*  ------------------------------------------------------------------------------------------ */
+  <body>
+    <div>this is a div</div>
+  </body>
