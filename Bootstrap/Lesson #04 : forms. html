@@ -1,0 +1,52 @@
+ <!-- --------------------------form in order-------------------------- -->
+    <form action=" /action_page.php">
+      <div class="mb-3 mt-3">
+        <label for="email" class="form-label">E-mail :</label>
+        <input type="email" class="from-control" id="email" placeholder="email">
+      </div>
+      <div class="mb-3">
+        <label for="pwd" class="form-label">Mot de pass : </label>
+        <input type="password" class="from-control" id="pwd" placeholder="password">
+      </div>
+      <div class="form-check mb-3">
+        <label class="form-check-label">check :</label>
+        <input type="checkbox" class="from-check-input" name="chek_box" >
+      </div>
+      <button type="sublit" class="btn btn-primary">Save</button>
+    </form>
+    <!-- --------------------------form in line-------------------------- -->
+
+    <form>
+      <div class="row">
+        <div class="col mb-3 mt-3">
+          <input type="text" class="form-control" placeholder="Enter l'email" name="email">
+        </div>
+        <div class="col">
+          <input type="password" class="form-control" placeholder="Enter le mot de passe" name="pswd">
+        </div>
+
+      </div>
+    </form>
+
+    <!-- --------------------------form texte Size input -------------------------- -->
+
+    <input type="text" class="form-control form-control-lg" placeholder="Grande entree">
+    <input type="text" class="form-control form-control-md" placeholder="Normale entree">
+    <input type="text" class="form-control form-control-sm" placeholder="petite entree">
+
+    <!-- --------------------------form Select -------------------------- -->
+
+    <select class="form-slect form-select-lg">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+    </select>
+
+    <select multiple class="form-slect form-select-md">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+    </select>
+    
