@@ -1,0 +1,40 @@
+/*
+border
+there is three things essontial in borders : 
+1 => width
+2 => color
+3 => type or style
+*/
+.div1 {
+  border-width: 5px;
+  border-color: rgb(204, 221, 109)  rgb(221, 158, 109);
+  border-style: dashed solid dotted;
+  /* border-style: solid; */
+  /* border-style: ridge; */
+  /* border-style: dotted; */
+  /* border-style: double; */
+  /* border-style: groove; */
+  /* border-style: hidden; */
+  /* border-style: none; */
+  
+}
+
+
+/* short form to do a border*/
+/* but you can add  only three values */
+.div2 {
+  border: 3px solid blue;
+}
+
+/* --------------------------------------------------- */
+
+ <body>
+    <div class="div1">
+      <h1>hello My name is Mohamed Ali</h1>
+      <p>this is my portfolio</p>
+    </div>
+    <div class="div2">
+      <h1>hello My name is Mohamed Ali</h1>
+      <p>this is my portfolio</p>
+    </div>
+  </body>
