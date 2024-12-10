@@ -1,0 +1,44 @@
+.div1 {
+  background-color:indianred;
+  padding: 10px; /* in this case 10px will be in all sides*/
+}
+
+.div2 {
+  background-color:rgb(210, 230, 122);
+  padding: 10px 20px 5px ; /* you can add the four values of eche side : Top Right Bottom Left*/
+  /* eche side git the same value of the side in front of its*/
+  /* top: 10px | right: 20px | bottom: 5px | left: will take the value of the right = 20px*/
+}
+
+.div3 {
+  background-color:rgb(230, 160, 122);
+  padding: 0 0 50px ; /* you can add padding to the Bottom only*/
+  /
+}
+
+.div4 {
+  /* you can use an ather way its more proficional */
+  background-color:rgb(230, 214, 122);
+  padding-bottom: 50px ; /* add padding to the Bottom only*/
+  /
+}
+
+/* -------------------------------------------------------- */
+<body>
+    <div class="div1">
+      <h1>hello My name is Mohamed Ali</h1>
+      <p>this is my portfolio</p>
+    </div>
+    <div class="div2">
+      <h1>hello My name is Mohamed Ali</h1>
+      <p>this is my portfolio</p>
+    </div>
+    <div class="div3">
+      <h1>hello My name is Mohamed Ali</h1>
+      <p>this is my portfolio</p>
+    </div>
+    <div class="div4">
+      <h1>hello My name is Mohamed Ali</h1>
+      <p>this is my portfolio</p>
+    </div>
+  </body>
