@@ -1,0 +1,54 @@
+/* the margin accepte negative values*/
+/* you can add the persentege*/
+
+
+.div1 {
+  background-color:indianred;
+  padding:10%;
+  margin: 15px;
+ 
+}
+
+
+.div2 {
+  background-color:rgb(210, 230, 122);
+  margin: 10px 20px 15px; /* you can add the four values of eche side : Top Right Bottom Left*/
+  /* eche side git the same value of the side in front of its*/
+  /* top: 10px | right: 20px | bottom: 5px | left: will take the value of the right = 20px*/
+}
+
+.div3 {
+  /* you can use an ather way its more proficional */
+  background-color:rgb(230, 214, 122);
+  margin-bottom: 50px ; /* add padding to the Bottom only*/
+  
+}
+
+.div4 {
+  /* to kipe the div in the center of the page */
+  width: 70%;
+  background-color:indianred;
+  margin-left: auto; /* to make the margin to change automaticly in the left */
+  margin-right: auto; /* to make the margin to change automaticly in the right */
+
+}
+
+/* --------------------------------------------------------- */
+<body>
+    <div class="div1">
+      <h1>hello My name is Mohamed Ali</h1>
+      <p>this is my portfolio</p>
+    </div>
+    <div class="div2">
+      <h1>hello My name is Mohamed Ali</h1>
+      <p>this is my portfolio</p>
+    </div>
+    <div class="div3">
+      <h1>hello My name is Mohamed Ali</h1>
+      <p>this is my portfolio</p>
+    </div>
+    <div class="div4">
+      <h1>hello My name is Mohamed Ali</h1>
+      <p>this is my portfolio</p>
+    </div>
+  </body>
