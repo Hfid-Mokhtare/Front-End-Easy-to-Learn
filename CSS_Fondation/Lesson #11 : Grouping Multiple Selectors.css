@@ -22,6 +22,9 @@
   border-bottom: 4px solid black;
 }
 
+/*
+ just make colon "," betewen selectors
+*/
 .one,.tow,.three,.four{
   width: 100px;
   background-color: #EEE;
