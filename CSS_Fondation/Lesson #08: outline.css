@@ -1,0 +1,36 @@
+/*
+outline
+there is three things essontial in outline : 
+1 => width
+2 => color
+3 => style
+
+in the outline you can not change  etche side
+*/
+.div1 {
+
+  outline-width: 5px;
+  outline-color: red;
+  outline-style: solid;
+  
+}
+
+
+/* short form to do a border*/
+/* but you can add  only three values */
+.div2 {
+  outline : 3px dotted blue;
+}
+
+/* ------------------------------------------------ */
+
+<body>
+    <div class="div1">
+      <h1>hello My name is Mohamed Ali</h1>
+      <p>this is my portfolio</p>
+    </div>
+    <div class="div2">
+      <h1>hello My name is Mohamed Ali</h1>
+      <p>this is my portfolio</p>
+    </div>
+  </body>
