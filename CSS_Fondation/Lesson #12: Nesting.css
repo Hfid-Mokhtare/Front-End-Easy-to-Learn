@@ -1,0 +1,25 @@
+/*
+  this type of css calde Nesting
+*/
+
+div .special span{
+  display: block;
+  color: red;
+}
+
+
+/* ------------------------------------------------- */
+
+<body>
+
+    <div>
+      <p>paragraphe inside div</p>
+      <p class="special">hello <span>paragraphe inside div withe class</span></p>
+
+    </div>
+      <p>paragraphe outside div</p>
+
+  </body>
+
+
+
