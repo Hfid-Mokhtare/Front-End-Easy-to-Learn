@@ -1,0 +1,46 @@
+/*
+  you can group multipel selectors if you want to give theme the same propreties
+*/
+
+.one{
+  color: red;
+  border-bottom: 4px solid red;
+}
+
+.tow{
+  color: green;
+  border-bottom: 4px solid green;
+}
+
+.three{
+  color: blue;
+  border-bottom: 4px solid blue;
+}
+
+.four{
+  color: black;
+  border-bottom: 4px solid black;
+}
+
+.one,.tow,.three,.four{
+  width: 100px;
+  background-color: #EEE;
+  margin: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* ------------------------------------------ */
+
+<body>
+    <div class="one" >One</div>
+    <div class="tow">Tow</div>
+    <div class="three">Three</div>
+    <div class="four"> Four</div>
+
+  </body>
+
+
+
+
+
