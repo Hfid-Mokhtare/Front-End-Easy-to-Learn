@@ -1,0 +1,45 @@
+/*
+display: none
+- remove the element and the nexte element take hes palace
+
+visibility: hidden
+- make the element invisible and kype hes place
+*/
+
+.div1{
+
+  background-color: #EEE;
+  display:none;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 20px;
+}
+.div2{
+
+  background-color: #EEE;
+  visibility:hidden;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 20px;
+}
+.div3{
+
+  background-color: #EEE;
+  
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 20px;
+}
+
+/*------------------------------------------------------------*/
+
+<body>
+    <div class="div1" >div => block</div>
+    <div class="div2">div => block</div>
+    <div class="div3">div => block</div>
+  </body>
+
+
