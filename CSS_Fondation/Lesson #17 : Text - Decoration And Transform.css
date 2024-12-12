@@ -1,0 +1,54 @@
+/*
+ ==> Text Decoration
+      - text-decoration: line-through;
+      - text-decoration: underline;
+      - text-decoration: overline;
+ ==> Text Transform
+      - text-transform: uppercase;
+      - text-transform: lowercase;
+      - text-transform: capitalize;
+*/
+
+div{
+  margin-bottom:10px;
+  height: 30px;
+  text-align: center;
+  display: block;
+
+}
+
+.div1 {
+  background-color:#eee;
+  text-decoration: line-through;
+  text-transform: uppercase;
+}
+
+.div2 {
+  background-color:#eee;
+  text-decoration: underline;
+  text-transform: lowercase;
+}
+
+.div3 {
+  background-color:#eee;
+  text-decoration: overline;
+  text-transform: capitalize;
+}
+
+.div4 ,a{
+  background-color:#eee;
+  text-decoration: none;
+}
+
+/* ----------------------------------*/
+
+<body>
+    <div class="div1">Mohamed Ali Zeggaf</div>
+    <div class="div2">Mohamed Ali Zeggaf</div>
+    <div class="div3">mohamed ali zeggaf</div>
+    <div class="div4"><a href="#">Mohamed Ali Zeggaf</a></div>
+    
+</body>
+
+
+
