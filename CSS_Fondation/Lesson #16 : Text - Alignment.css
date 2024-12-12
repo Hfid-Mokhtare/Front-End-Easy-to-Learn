@@ -1,0 +1,46 @@
+/*
+ ==> Text Alignment
+      - Alignment
+      - Direction : 
+        - ltr
+        - rtl
+      - Vertical Alignment: 
+        - top
+        - middle
+        - bottom
+*/
+
+.div1 {
+  background-color:#eee;
+  text-align: center;
+  margin-bottom:10px;
+  direction:rtl;
+
+}
+
+.div2 {
+  background-color:#eee;
+  text-align: left;
+  direction:ltr;
+  margin-bottom:10px;
+
+}
+
+.div3 {
+  background-color:#eee;
+  text-align: right;
+  direction:rtl;
+  margin-bottom:10px;
+}
+
+/* ------------------------------------- */
+
+<body>
+    <div class="div1">Article one.</div>
+    <div class="div2">Article one.</div>
+    <div class="div3">السلام عليكم.</div>
+</body>
+
+
+
+
