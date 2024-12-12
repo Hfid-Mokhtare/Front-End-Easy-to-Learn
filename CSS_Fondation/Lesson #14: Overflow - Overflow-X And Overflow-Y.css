@@ -1,0 +1,140 @@
+/*
+  overflow: auto;
+  overflow-y: hidden; 
+  overflow: scroll;
+
+*/
+
+.Ar1,.Ar2,.Ar3{
+  margin-left: 30px;
+  background-color: #EEE;
+  color: black;
+  border: 3px dotted rgb(133, 133, 234);
+  border-radius: 0 4px 10px;
+
+  min-width: 200px; /*  that can be*/
+  max-width: 300px; /* max width that can be*/
+
+  min-height: 50px;
+  max-height: 100px;
+
+}
+.Ar1{
+  overflow: auto; /* to do scrolling automatecly if the content is longue*/
+
+}
+.Ar2{
+  overflow-y:hidden; /* you can use visible it an other choisse */
+
+}
+.Ar3{
+  overflow:scroll; /* to scroll the content in all directions x and y*/
+}
+
+
+div {
+  
+  background-color: rgb(133, 133, 234);
+  margin-bottom: 10px;
+  color: white;
+  width:fit-content; /* min width that can be*/
+  padding: 5px;
+  border-radius: 0 4px 10px
+}
+
+/* --------------------------------------------------------- */
+
+<body>
+    <div>Article one</div>
+    <div class="Ar1">
+      Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Cupiditate deserunt consequuntur suscipit
+      delectus eveniet, nesciunt temporibus! Quae, itaque nemo? Deleniti
+      dolores, minima sunt perferendis adipisci consectetur amet dignissimos
+      mollitia laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Cupiditate deserunt consequuntur suscipit delectus eveniet, nesciunt
+      temporibus! Quae, itaque nemo? Deleniti dolores, minima sunt perferendis
+      adipisci consectetur amet dignissimos mollitia laboriosam! Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Cupiditate deserunt
+      consequuntur suscipit delectus eveniet, nesciunt temporibus! Quae, itaque
+      nemo? Deleniti dolores, minima sunt perferendis adipisci consectetur amet
+      dignissimos mollitia laboriosam! Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Cupiditate deserunt consequuntur suscipit delectus
+      eveniet, nesciunt temporibus! Quae, itaque nemo? Deleniti dolores, minima
+      sunt perferendis adipisci consectetur amet dignissimos mollitia
+      laboriosam!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Cupiditate deserunt consequuntur suscipit delectus eveniet, nesciunt
+      temporibus! Quae, itaque nemo? Deleniti dolores, minima sunt perferendis
+      adipisci consectetur amet dignissimos mollitia laboriosam! Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Cupiditate deserunt
+      consequuntur suscipit delectus eveniet, nesciunt temporibus! Quae, itaque
+      nemo? Deleniti dolores, minima sunt perferendis adipisci consectetur amet
+      dignissimos mollitia laboriosam!Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Cupiditate deserunt consequuntur suscipit delectus
+      eveniet, nesciunt temporibus! Quae, itaque nemo? Deleniti dolores, minima
+      sunt perferendis adipisci consectetur amet dignissimos mollitia
+      laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Cupiditate deserunt consequuntur suscipit delectus eveniet, nesciunt
+      temporibus! Quae, itaque nemo? Deleniti dolores, minima sunt perferendis
+      adipisci consectetur amet dignissimos mollitia laboriosam!Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Cupiditate deserunt
+      consequuntur suscipit delectus eveniet, nesciunt temporibus! Quae, itaque
+      nemo? Deleniti dolores, minima sunt perferendis adipisci consectetur amet
+      dignissimos mollitia laboriosam! Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Cupiditate deserunt consequuntur suscipit delectus
+      eveniet, nesciunt temporibus! Quae, itaque nemo? Deleniti dolores, minima
+      sunt perferendis adipisci consectetur amet dignissimos mollitia
+      laboriosam!
+    </div>
+    <div>Article Tow</div>
+    <div class="Ar2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+      deserunt consequuntur suscipit delectus eveniet, nesciunt temporibus!
+      Quae, itaque nemo? Deleniti dolores, minima sunt perferendis adipisci
+      consectetur amet dignissimos mollitia laboriosam! Lorem ipsum dolor sit
+      amet consectetur adipisicing elit. Cupiditate deserunt consequuntur
+      suscipit delectus eveniet, nesciunt temporibus! Quae, itaque nemo?
+      Deleniti dolores, minima sunt perferendis adipisci consectetur amet
+      dignissimos mollitia laboriosam!
+    </div>
+    <div>Article three</div>
+    <div class="Ar3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+      deserunt consequuntur suscipit delectus eveniet, nesciunt temporibus!
+      Quae, itaque nemo? Deleniti dolores, minima sunt perferendis adipisci
+      consectetur amet dignissimos mollitia laboriosam! Lorem ipsum dolor sit
+      amet consectetur adipisicing elit. Cupiditate deserunt consequuntur
+      suscipit delectus eveniet, nesciunt temporibus! Quae, itaque nemo?
+      Deleniti dolores, minima sunt perferendis adipisci consectetur amet
+      dignissimos mollitia laboriosam! Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Cupiditate deserunt consequuntur suscipit delectus
+      eveniet, nesciunt temporibus! Quae, itaque nemo? Deleniti dolores, minima
+      sunt perferendis adipisci consectetur amet dignissimos mollitia
+      laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Cupiditate deserunt consequuntur suscipit delectus eveniet, nesciunt
+      temporibus! Quae, itaque nemo? Deleniti dolores, minima sunt perferendis
+      adipisci consectetur amet dignissimos mollitia laboriosam!Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Cupiditate deserunt
+      consequuntur suscipit delectus eveniet, nesciunt temporibus! Quae, itaque
+      nemo? Deleniti dolores, minima sunt perferendis adipisci consectetur amet
+      dignissimos mollitia laboriosam! Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Cupiditate deserunt consequuntur suscipit delectus
+      eveniet, nesciunt temporibus! Quae, itaque nemo? Deleniti dolores, minima
+      sunt perferendis adipisci consectetur amet dignissimos mollitia
+      laboriosam!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Cupiditate deserunt consequuntur suscipit delectus eveniet, nesciunt
+      temporibus! Quae, itaque nemo? Deleniti dolores, minima sunt perferendis
+      adipisci consectetur amet dignissimos mollitia laboriosam! Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Cupiditate deserunt
+      consequuntur suscipit delectus eveniet, nesciunt temporibus! Quae, itaque
+      nemo? Deleniti dolores, minima sunt perferendis adipisci consectetur amet
+      dignissimos mollitia laboriosam!Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Cupiditate deserunt consequuntur suscipit delectus
+      eveniet, nesciunt temporibus! Quae, itaque nemo? Deleniti dolores, minima
+      sunt perferendis adipisci consectetur amet dignissimos mollitia
+      laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Cupiditate deserunt consequuntur suscipit delectus eveniet, nesciunt
+      temporibus! Quae, itaque nemo? Deleniti dolores, minima sunt perferendis
+      adipisci consectetur amet dignissimos mollitia laboriosam!
+    </div>
+  </body>
