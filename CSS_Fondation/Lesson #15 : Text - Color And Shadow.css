@@ -1,0 +1,26 @@
+/*
+ ==> text-shadow: 
+        H-shadow
+        V-shadow
+        Blur
+        Color
+*/
+
+div {
+  height: 100px;
+  background-color: #EEE;
+  text-shadow: 4px 4px 2px  red;
+ 
+}
+
+/* ---------------------------------------- */
+
+<body>
+
+    <div>Article one</div>
+   
+</body>
+
+
+
+
