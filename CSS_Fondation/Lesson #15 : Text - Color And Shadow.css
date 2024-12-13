@@ -1,7 +1,7 @@
 /*
  ==> text-shadow: 
-        H-shadow
-        V-shadow
+        Horisontal shadow
+        Vertical shadow
         Blur
         Color
 */
@@ -9,7 +9,7 @@
 div {
   height: 100px;
   background-color: #EEE;
-  text-shadow: 4px 4px 2px  red;
+  text-shadow: 4px 4px 2px red;
  
 }
 
