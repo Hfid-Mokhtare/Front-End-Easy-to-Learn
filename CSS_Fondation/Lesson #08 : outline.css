@@ -16,7 +16,7 @@ in the outline you can not change  etche side
 }
 
 
-/* short form to do a border*/
+/* short form to do a outline */
 /* but you can add  only three values */
 .div2 {
   outline : 3px dotted blue;
