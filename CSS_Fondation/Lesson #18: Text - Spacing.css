@@ -1,0 +1,81 @@
+/*
+ ==> Text Spacing
+    - Letter Spacing
+    - Indentation
+    - Line Height
+    - Word Spacing + Wraping + White Space
+      
+*/
+
+div{
+  margin-bottom:10px;
+  /* height: 30px; */
+  /* text-align: center; */
+  display: block;
+  background-color:#eee;
+
+}
+
+.div1 {
+ letter-spacing: 2px; /* you can give it a negative value */
+  
+}
+
+.div2 {
+ text-indent: 200px; /* to do a space in the beggin of the sentence */
+}
+
+.div3 {
+ line-height: 40px; /* you can use the percentage like : 1.6% */
+}
+
+.div4 {
+  word-spacing: 20px;
+}
+
+.div5 {
+  width: 300px;
+  white-space: normal; /* you can use nowrap to continue the line */
+
+  
+} 
+.div6 {
+  width: 300px;
+  word-break: break-all /* you can use keep-all to keep it normal */
+} 
+
+/* ------------------------------------------------------------- */
+
+<body>
+    <div class="div1">Mohamed Ali Zeggaf</div>
+    <div class="div2">Mohamed Ali Zeggaf</div>
+    <div class="div3">
+      Lorem ipsum dolor sit amet consectetur, 
+      adipisicing elit. Explicabo
+      provident, officia ullam praesentium 
+      ducimus in impedit? Aliquid vitae,
+      quam quos reprehenderit quasi, natus 
+      mollitia, odio praesentium voluptatum
+      fuga earum consequuntur.
+    </div>
+    <div class="div4">Mohamed Ali Zeggaf</div>
+    <div class="div5">
+      Lorem ipsum dolor sit amet consectetuddddd......,adipisicing elit. Explicabo
+      provident, officia ullam praesentium 
+      ducimus in impedit? Aliquid vitae,
+      quam quos reprehenderit quasi, natus 
+      mollitia, odio praesentium voluptatum
+      fuga earum consequuntur.
+    </div>
+    <div class="div6">
+      Lorem ipsum dolor sit ameconsectetuddddd......,adipisicing elit. Explicabo
+      provident, officia ullam praesentium 
+      ducimus in impedit? Aliquid vitae,
+      quam quos reprehenderit quasi, natus 
+      mollitia, odio praesentium voluptatum
+      fuga earum consequuntur.
+    </div>
+  </body>
+
+
+
