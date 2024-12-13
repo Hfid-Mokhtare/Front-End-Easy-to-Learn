@@ -8,7 +8,7 @@ there is three things essontial in borders :
 .div1 {
   border-width: 5px;
   border-color: rgb(204, 221, 109)  rgb(221, 158, 109);
-  border-style: dashed solid dotted;
+  border-style: dashed ;
   /* border-style: solid; */
   /* border-style: ridge; */
   /* border-style: dotted; */
