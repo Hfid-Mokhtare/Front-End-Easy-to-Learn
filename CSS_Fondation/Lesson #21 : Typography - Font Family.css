@@ -1,0 +1,34 @@
+/*
+ ==> Typography - Font Family
+
+*/
+
+div {
+  background-color: #eee;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid forestgreen;
+  font-family: "Cairo", sans-serif;
+}
+
+div p {
+  border: inherit;
+  border-radius: inherit;
+  padding: inherit;
+}
+
+ @font-face{
+  font-family: "Cairo", sans-serif;
+  src: url(media/font/Cairo/Cairo-VariableFont_slnt\,wght.ttf);
+} 
+
+/* --------------------------------------------------------- */
+
+<body>
+    <div>
+      <h3>Mohamed Ali Zeggaf Website,</h3>
+      <p>Lerning programming the corecte Way</p>
+    </div>
+  </body>
