@@ -1,0 +1,40 @@
+/*
+ ==> Text Overflow 
+    -  text-overflow: ellipsis;
+
+*/
+
+
+
+div {
+ background-color: #EEE;
+ width:300px;
+ padding: 10px;
+ font-size: large;
+ white-space: nowrap;
+ overflow-x: scroll;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ border-radius: 10px;
+
+}
+
+div:hover{
+  overflow: visible;
+  width: fit-content;
+  background-color: rgb(202, 235, 220);
+  font-size: larger;
+  border-left: 2px dashed black;
+  border-right: 2px dashed black;
+  border-bottom: 2px dashed black;
+  border-color: blueviolet ;
+
+}
+
+/* ------------------------------------------- */
+
+<div
+      title="Mohamed Ali Zeggaf Website, Lerning programming the corecte Way"
+    >
+      Mohamed Ali Zeggaf Website, Lerning programming the corecte Way
+    </div>
