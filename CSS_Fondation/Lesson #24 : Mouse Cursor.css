@@ -1,0 +1,36 @@
+/*
+ ==> Mouse Cursor 
+ 
+*/
+
+.div1 {
+}
+
+button {
+  width: 110px;
+  cursor: pointer;
+}
+p {
+  color: blue;
+  cursor:pointer;
+  font-size: 10px;
+
+  /* cursor:auto ; */
+  /* cursor: all-scroll; */
+  /* cursor: cell; */
+  /* cursor: col-resize; */
+  /* cursor: copy; */
+  /* cursor: crosshair; */
+  /* cursor: progress; */
+  /* cursor: wait; */
+
+}
+
+/* ---------------------------- */
+
+<body>
+    <div class="div1">Mohamed Ali Zeggaf</div>
+    <hr>
+    <button>Click here</button>
+    <p>forgit password ?</p>
+</body>
