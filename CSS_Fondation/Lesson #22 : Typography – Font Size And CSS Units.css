@@ -1,0 +1,46 @@
+/*
+ ==> Typography - Font size
+  CSS units
+  - px
+  - em => time
+  - rem => Root time 
+  - percentage => you can add the percentage acourding to the font that you want
+  - vw => View port width : 1 vw = 1% of the view width 
+          this unit is utilise when you want to change the size of the font
+          according to width of the page
+
+  Read 
+  - vmin
+  - vh
+
+  1em = 16px this is wrong
+  the defaulte font size of a web page is 16 px
+*/
+
+.p1{
+  font-size: 16px;
+}
+
+.p2{
+  font-size: 2em;
+}
+.span1{
+  font-size: 1em;
+
+}
+
+p{
+  font-size: 16px;
+}
+
+.span2{
+  font-size: 2em;
+}
+/* -------------------------------------------- */
+
+<body>
+    <div>
+      <p class="p1">Lerning programming the corecte <span class="span1">Way</span></p>
+     <p class="p2">Lerning programming the corecte <span class="span2">Way</span> </p>
+    </div>
+</body>
