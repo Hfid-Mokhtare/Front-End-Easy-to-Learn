@@ -1,0 +1,33 @@
+/*
+ ==> Typography 
+ 
+  - Font Style
+  - Font Variant
+  - Font Weight
+ 
+*/
+
+.div1{
+  font-style:italic;
+  font-size: 2em;
+}
+
+.div2{
+  font-variant:small-caps;
+  font-size: 2em;
+}
+.div3{
+  font-weight: bold; /* you can use normal */
+
+}
+
+/* ----------------------------------------------- */
+
+<body>
+    <div class="div1">Mohamed Ali Zeggaf</div>
+    <div class="div2">mohamed ali zeggaf</div>
+    <div class="div3">Mohamed Ali Zeggaf</div>
+</body>
+
+
+
