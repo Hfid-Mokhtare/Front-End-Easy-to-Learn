@@ -1,0 +1,23 @@
+/*
+ ==> opacity: 
+  if  you use opasity all the element will change
+  it start from 1 to down 0.8 or 0.5 ....
+ 
+*/
+.One {
+  background-color: rgb(255 0 0);
+  opacity: 0.5;
+}
+
+.Two {
+  background-color: rgb(255 0 0 /50%);
+}
+
+/* ------------------------------------------- */
+
+<body>
+   
+      <div class="One">Product One</div>
+      <div class="Two">Product Two</div>
+  
+</body>
