@@ -1,0 +1,44 @@
+/*
+ ==> Calculation
+ 
+*/
+body{
+ margin: 0;
+}
+
+.parent div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #EEE;
+  width: calc((100% - 60px) / 5);
+  float: left;
+  margin-left: 10px;
+}
+
+/*
+ my view is 100 %
+ i need to add a margin 1% * 6 = 6%
+ so the view now is 94% 
+ i have 5 element
+ so 94% / 5 = 18.8%
+
+ my view is 100 %
+ i need to add a margin 15px * 6 = 90px
+ so the view now is 100% -90px 
+ i have 5 element
+ so (100% - 90px) / 5 = 18.8%
+
+*/
+
+/* ------------------------------------------- */
+
+<body>
+    <div class="parent">
+      <div>Product One</div>
+      <div>Product Two</div>
+      <div>Product three</div>
+      <div>Product Four</div>
+      <div>Product five</div>
+    </div>
+</body>
