@@ -1,0 +1,34 @@
+/*
+ ==> float
+ ==> clear 
+ 
+*/
+.parent{
+  background-color: red;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.parent div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #EEE;
+  display: inline-block;
+  width: 25%;
+  float: left;
+}
+.clear{
+  clear: both;
+}
+
+/* ------------------------------------*/
+
+<body>
+    <div class="parent">
+      <div>Product One</div>
+      <div>Product Two</div>
+      <div>Product three</div>
+      <div>Product Four</div>
+      <p class="clear"></p>
+</div>
