@@ -1,0 +1,102 @@
+/*
+Position
+- Static => Default
+- Relative
+- Absolute
+- Fixed
+- Sticky
+
+*/
+
+body {
+  min-height: 4000px;
+}
+
+/* Static => this element will naver move from this position */
+.one {
+  position: static;
+  top: 0;
+  left: 0;
+  background-color: green;
+  color: white;
+  width: 100px;
+  padding: 10px;
+}
+
+/* Relative => the element git a position but his not impact other elements and workflow */
+.two {
+  position: relative;
+  top: 10px;
+  background-color: red;
+  color: white;
+  width: 100px;
+  padding: 10px;
+}
+
+/* Absolute => the element three move withe out care about one and tow because he is absolute*/
+.three {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: blue;
+  color: white;
+  width: 100px;
+  padding: 10px;
+}
+
+/* Relative => the element four is relative so the element five style on its */
+.four {
+  position: relative;
+  background-color: rgb(24, 233, 24);
+  color: white;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* element five will stay inside element four so four is the fither of five*/
+.five {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(236, 162, 70);
+  width: 100px;
+  padding: 10px;
+}
+
+/* Fixed => this element will naver move from this position */
+.sexe {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(236, 162, 70);
+  color: white;
+  width: 100px;
+  padding: 10px;
+}
+
+/* Sticky => this nave bare will be sticky in position top: 0*/
+.nav {
+  position: sticky;
+  top: 10px;
+  margin-top: 10px;
+  background-color: rgb(34, 150, 165);
+  color: white;
+  width: 600px;
+  padding: 10px;
+  text-align: center;
+  font-size: larger;
+}
+
+/* ----------------------------------------- */
+
+<body>
+    <div class="one">One</div>
+    <div class="two">Two</div>
+    <div class="three">Three</div>
+    <div class="four">four<div class="five">Five</div></div>
+    <div class="sexe">Sexe is fixed in this position</div>
+    <div class="nav">sticky nav bare</div>
+</body>
