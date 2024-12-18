@@ -1,0 +1,64 @@
+/*
+ table styling : 
+ - how to give your table a very good style using css 
+*/
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+  width: 100%;
+  border-spacing: 0;
+}
+
+table td{
+  background-color: #EEE;
+  padding: 15px;
+  border: 1px solid #ffffff;
+
+}
+
+thead td{
+  background-color: #FF5722;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-color: #ff9271;
+}
+
+/* --------------------------------------------- */
+
+<body>
+    <table>
+      <thead>
+        <tr>
+          <td>Name</td>
+          <td>Age</td>
+          <td>Email</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mohamed Ali</td>
+          <td>19</td>
+          <td>@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Moade</td>
+          <td>30</td>
+          <td>@gmail.com</td>
+        </tr>
+        <tr>
+          <td>ahmad</td>
+          <td>22</td>
+          <td>@gmail.com</td>
+        </tr>
+        <tr>
+          <td>yahya</td>
+          <td>21</td>
+          <td>@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
