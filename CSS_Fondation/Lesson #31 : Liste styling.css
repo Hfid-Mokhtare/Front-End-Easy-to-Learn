@@ -6,8 +6,10 @@
  - short hand
 
  - in the future lessons we will learn some think cald befor and after to edet the style
-    of the liste
-  - you can make the bolets of the liste inside or outside(difaulte
+    of the liste and change on it
+  - you can make the bolets of the liste inside or outside(difaulte)
+  -short hand : 
+    list-style: type position image
 */
 
 ul ul .li1 {
@@ -15,6 +17,11 @@ ul ul .li1 {
   list-style: none;
   list-style-image: url();
   background-color: #eee;
+  display: inline-block;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+
 }
 ul ul .li2 {
   list-style-position: inside;
