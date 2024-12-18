@@ -1,0 +1,43 @@
+/*
+ list style: 
+ - type
+ - position
+ - image
+ - short hand
+
+ - in the future lessons we will learn some think cald befor and after to edet the style
+    of the liste
+  - you can make the bolets of the liste inside or outside(difaulte
+*/
+
+ul ul .li1 {
+  list-style-position: outside;
+  list-style: none;
+  list-style-image: url();
+  background-color: #eee;
+}
+ul ul .li2 {
+  list-style-position: inside;
+  background-color: #eee;
+}
+
+    /* ------------------------ */
+<body>
+    <ul>
+      <li>front-end
+        <ul>
+          <li class="li1">HTML</li>
+          <li class="li1">CSS</li>
+          <li class="li1">JS</li>
+        </ul>
+      </li>
+      <li>back-end
+        <ul>
+          <li class="li2">C++</li>
+          <li class="li2"C#</li>
+          <li class="li2">PHP</li>
+        </ul>
+      </li>
+    </ul>
+    
+  </body>
