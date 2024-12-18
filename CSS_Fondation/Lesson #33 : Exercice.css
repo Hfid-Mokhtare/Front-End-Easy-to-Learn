@@ -1,0 +1,48 @@
+/*
+
+*/
+
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+} */
+
+.parent {
+ width: 800px;
+ background-color: #4c4b4b;
+ margin: 20px auto;
+ 
+}
+
+.parent div{
+  background-color: #DDD;
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  text-align: center;
+  padding: 20px 0;
+}
+.clear{
+  clear: both;
+}
+.row-one{
+  width: calc(100% - 30px);
+
+}
+
+/*----------------------------------------------------*/
+
+ <body>
+    <div class="parent">
+      <div class="row-one">Full width</div>
+      <div class="row-two">1/3</div>
+      <div class="row-two">1/3</div>
+      <div class="row-two">1/3</div>
+      <div class="row-three">1/2</div>
+      <div class="row-three">1/2</div>
+      <div class="row-four">1/4</div>
+      <div class="row-four">1/4</div>
+      <div class="row-four">1/4</div>
+      <div class="row-four">1/4</div>
+    </div>
+  </body>
