@@ -2,25 +2,22 @@
 
 */
 
-/* body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-} */
 
 .parent {
  width: 800px;
  background-color: #4c4b4b;
- margin: 20px auto;
+ margin: 20px auto ;
  
 }
 
 .parent div{
   background-color: #DDD;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px 0;
   float: left;
   margin-top: 15px;
   margin-left: 15px;
-  text-align: center;
-  padding: 20px 0;
 }
 .clear{
   clear: both;
@@ -30,9 +27,24 @@
 
 }
 
-/*----------------------------------------------------*/
+.row-two{
+  width: calc((100% - 60px)/3);
 
- <body>
+}
+
+.row-three{
+  width: calc((100% - 45px)/2);
+
+}
+
+.row-four{
+  width: calc((100% - 75px)/4);
+  margin-bottom: 15px; 
+}
+
+/* -------------------------------------- */
+
+<body>
     <div class="parent">
       <div class="row-one">Full width</div>
       <div class="row-two">1/3</div>
@@ -44,5 +56,6 @@
       <div class="row-four">1/4</div>
       <div class="row-four">1/4</div>
       <div class="row-four">1/4</div>
+      <p class="clear"></p>
     </div>
-  </body>
+</body>
