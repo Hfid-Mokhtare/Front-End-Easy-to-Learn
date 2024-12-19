@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Bootstrap</title>
+    <!-- Lien vers le fichier ccs local de bootstrap -->
+    <link rel="stylesheet" href="bootstrap-icons-1.11.0/bootstrap-icons.min.css"/>
+    <link rel="stylesheet" href="CSS\bootstrap.css" />
+
+  </head>
+  <body>
+   
+    <form action="/action_page.php">
+
+      <div class="row m-3">
+        <div class="col-4">
+          <span class="input-group-text bg-white">
+            <i class="bi bi-person-badge fs-2 text-primary"></i>
+            <input type="text" name="identifiant" class="form-control" placeholder="Votre identifiant">
+          </span>
+        </div>
+       
+        <div class="col-4">
+          <span class="input-group-text bg-white">
+            <i class="bi bi-person fs-2 text-primary"></i>
+          <input type="text" name="Prenom" class="form-control" placeholder="Votre prénom">
+          </span>
+        </div>
+
+        <div class="col-4">
+          <span class="input-group-text bg-white">
+            <i class="bi bi-person fs-2 text-primary"></i>
+          <input type="text" name="nom" class="form-control" placeholder="Votre nom">
+          </span>
+        </div>
+      </div>
+
+      <div class="row m-3">
+        <div class="col-4">
+          <span class="input-group-text bg-white">
+            <i class="bi bi-envelope fs-2 text-primary"></i>
+            <input type="text" name="identifiant" class="form-control" placeholder="Email@gmail.com">
+          </span>
+        </div>
+       
+        <div class="col-4">
+          <span class="input-group-text bg-white">
+            <i class="bi bi-calendar fs-2 text-primary"></i>
+            <input type="text" name="Prenom" class="form-control">
+          </span>
+        </div>
+
+        <div class="col-4">
+          <span class="input-group-text bg-white">
+            <i class="bi bi-gender-male fs-2 text-primary"></i>
+            <input type="radio" id="Homme" name="fav_language" value="Homme">
+            <label for="Homme">Homme</label><br>
+            <input type="radio" id="Femme" name="fav_language" value="Femme">
+            <label for="Femme">Femme</label><br>
+          </span>
+        </div>
+
+      </div>
+      <div class="row m-3">
+        <div class="col-8">
+          <span class="input-group-text bg-white">
+            <i class="bi bi-house fs-2 text-primary"></i>
+            <input type="text" name="identifiant" class="form-control" placeholder="Saisir Votre Adresse">
+          </span>
+        </div>
+
+        <div class="col-4">
+          <span class="input-group-text bg-white">
+            <i class="bi bi-geo-alt-fill fs-2 text-primary"></i>
+            <select id="cars" name="cars" class="form-control" >
+              <option value="volvo">Volvo XC90</option>
+              <option value="saab">Saab 95</option>
+              <option value="mercedes">Mercedes SLK</option>
+              <option value="audi">Audi TT</option>
+            </select>
+          </span>
+        </div>
+      </div>
+    </form>
+
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
