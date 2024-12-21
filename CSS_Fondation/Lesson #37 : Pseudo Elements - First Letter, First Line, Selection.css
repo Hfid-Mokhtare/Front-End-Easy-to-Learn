@@ -1,0 +1,64 @@
+/* 
+pseudo element 
+*/
+
+
+/* you can use a span to put the letter "L" and change it style later
+but this is Not the proficional way */
+.one span{
+  font-size: 60px;
+  color: red;
+}
+
+/* the proficianal way is to use pseudo element
+ in pseudo element we use < :: > 
+ it deferent than pseudo class when we use only < : > */
+.two::first-letter{
+  font-size: 60px;
+  color: rgb(4, 0, 255);
+}
+
+/* to change the style of the first line only */
+.three::first-line{
+  color: red;
+  font-weight: bold;
+}
+
+/* to change the style of the text when it is selected */
+.four::selection{
+  background-color: rgb(205, 250, 211);
+  color: rgb(245, 154, 79);
+}
+
+/* ------------------------------------------------- */
+
+<body>
+    <div class="one">
+      <span>L</span>orem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur,
+      dignissimos dicta nostrum quam ab molestias sequi provident mollitia
+      magnam eligendi. Omnis necessitatibus quam iure molestias dolore earum
+      vero, quasi adipisci!
+    </div>
+    <hr>
+    <div class="two">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur,
+      dignissimos dicta nostrum quam ab molestias sequi provident mollitia
+      magnam eligendi. Omnis necessitatibus quam iure molestias dolore earum
+      vero, quasi adipisci!
+    </div>
+    <hr>
+    <div class="three">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur,
+      dignissimos dicta nostrum quam ab molestias sequi provident mollitia
+      magnam eligendi. Omnis necessitatibus quam iure molestias dolore earum
+      vero, quasi adipisci!
+    </div>
+    <hr>
+    <div class="four">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur,
+      dignissimos dicta nostrum quam ab molestias sequi provident mollitia
+      magnam eligendi. Omnis necessitatibus quam iure molestias dolore earum
+      vero, quasi adipisci!
+    </div>
+    
+  </body>
