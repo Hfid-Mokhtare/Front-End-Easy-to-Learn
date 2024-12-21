@@ -1,0 +1,104 @@
+/* 
+pseudo element : 
+  - after
+  - befour
+
+  you can do the same style using span element but it not the proficionale whay
+
+  ==> it very importent for < ::befor > and < ::after > to add property < content: "" >
+*/
+
+.parent {
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.parent div {
+  float: left;
+  background-color: #eee;
+}
+
+.name {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center Verticly */
+  font-size: 50px;
+}
+
+.one {
+  position: relative;
+  width: 600px;
+  height: 60px;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.one::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 80px;
+  background-color: rgb(29, 170, 170);
+  top: 0;
+  right: -10px;
+}
+
+.one::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+
+  background-color: white;
+  border-width: 10px;
+  border-style: solid;
+  /* use transparent to hidde the other borders*/
+  border-color: transparent rgb(29, 170, 170) transparent transparent;
+  top: 50%;
+  margin-top: -10px;
+  left: -30px;
+}
+
+/* --------------------------------------------------------- */
+
+<body>
+    <div class="parent">
+      <div class="name">O</div>
+      <div class="one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+        voluptate quasi? Eum odit aliquid reprehenderit libero architecto rerum
+        numquam voluptatibus! Quisquam magnam nobis provident fugiat enim sunt
+        ea culpa numquam.
+      </div>
+      <p class="clear"></p>
+    </div>
+
+    <div class="parent">
+      <div class="name">A</div>
+      <div class="one">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur,
+        dignissimos dicta nostrum quam ab molestias sequi provident mollitia
+        magnam eligendi. Omnis necessitatibus quam iure molestias dolore earum
+        vero, quasi adipisci!
+      </div>
+      <p class="clear"></p>
+    </div>
+
+    <div class="parent">
+      <div class="name">E</div>
+      <div class="one">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur,
+        dignissimos dicta nostrum quam ab molestias sequi provident mollitia
+        magnam eligendi. Omnis necessitatibus quam iure molestias dolore earum
+        vero, quasi adipisci!
+      </div>
+      <p class="clear"></p>
+    </div>
+  </body>
