@@ -1,0 +1,82 @@
+div,
+a,
+input
+{
+  margin-top: 20px;
+}
+
+.title{
+  color: white;
+  background-color: rgb(112, 233, 196);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  width: 50%;
+  text-transform: uppercase;
+}
+
+.empty{
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+ 
+
+}
+.empty:empty{                   
+  /* you can use <:empty> only to the same style 
+     to all empty elements in the page*/
+  border: 2px dashed red;
+  background-color: white;
+}
+
+.link{
+  font-weight: bold;
+  font-variant: small-caps;
+  text-decoration: none;
+}
+.link:hover{
+  color:blueviolet;
+}
+
+.Vlink{
+  font-weight: bold;
+  font-variant: small-caps;
+  text-decoration: none;
+}
+.Vlink:visited{
+  color:blueviolet;
+}
+
+.Txinput:focus{
+  outline: none;
+  border: 2px solid blue;
+  border-radius: 3px;
+}
+
+.Chinput:checked + label{
+  /* this style will be aplayde to the lable if
+     you check the check box */
+  background-color:rgb(233, 150, 83);
+  color: white;
+}
+
+/* ------------------------------------------------------ */
+
+<body>
+    <div class="title">Empty Element</div>
+    <div class="empty"></div>
+
+    <div class="title">hoverd link</div>
+    <a class="link" href="#">linke one</a>
+    <a class="link" href="#1">linke two</a>
+
+    <div class="title">visited link</div>
+    <a class="Vlink" href="#2">linke three</a>
+    <a class="Vlink" href="#3">linke four</a>
+
+    <div class="title">focus on element </div>
+    <input class="Txinput" type="text" placeholder="Enter your text here">
+
+    <div class="title">checked element</div>
+    <input class="Chinput" type="checkbox">
+    <label for="">checkbox</label>
+</body>
