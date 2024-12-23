@@ -1,0 +1,53 @@
+/*
+Vendors Prefixes
+
+-> vendors like : 
+- Chorome
+- Safari
+- Firefox
+- IE, Edge
+- Opera
+
+-> we add Prefixes when: 
+[1] New css Feature Appeared
+[2] Browsers Tests The Feature In Version X
+[3] Browsers Add Prefix To Give Developers The Ability To Use It
+[4]  The feature is fully supported in version Y, NO need for prefix
+
+*/
+
+/* 
+this is an example of border-radius : 
+=> to work withe a new featur you have to add prefixes: 
+
+-webkit- => Chrome, Safari, New Opera Version
+-moz- => Firefox
+-ms- => Ie, Edge
+-o- => Old Version of Opera
+
+=> if you know that all browsers suporte this fiture you don't have to 
+add these prefixes
+
+=> to know that ther is some websits like : "Can i use"
+
+*/
+
+.class{
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-o-border-radius: 10px;
+-ms-border-radius: 10px;
+border-radius: 10px;
+
+}
+
+
+/*
+
+=> but
+- the most of users now have modern browsers
+- vs code Addon to add the prefixes automaticly
+- Task Runner < we will learn it later >
+
+*/
+
