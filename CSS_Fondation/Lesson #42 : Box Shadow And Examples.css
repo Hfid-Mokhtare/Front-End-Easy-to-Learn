@@ -1,0 +1,22 @@
+/*
+
+H-Shadow | V-Shadow | Blur | Spread | Color | Inset or outset
+
+*/
+
+
+.div1 {
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+  margin: 20px auto;
+  box-shadow: 10px 0px 10px 1px gray ; 
+}
+
+
+
+/* ------------------------------------------ */
+
+<body>
+   <div class="div1"></div>
+</body>
