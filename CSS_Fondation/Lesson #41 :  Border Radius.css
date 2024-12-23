@@ -1,0 +1,54 @@
+/*
+
+*/
+
+.div1{
+
+  width: 300px;
+  height: 300px;
+  background-color: rgb(27, 188, 233);
+  margin: 20px auto;
+  border-radius: 10px; /* add the border-radius to all the corners*/
+
+}
+
+.div2{
+
+  width: 300px;
+  height: 300px;
+  background-color: rgb(233, 133, 27);
+  margin: 20px auto;
+  border-radius: 10px 30px 50px 70px; /* you can add all 
+  the values of the border-radius to all the corners*/
+}
+
+/* you can specifide the corner where you will add the radius*/
+.div3{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(27, 233, 140);
+  margin: 20px auto;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 30px 50px; 
+  border-bottom-right-radius: 50px ; 
+  border-bottom-left-radius: 70px; 
+}
+
+/* all corners hase to sides one in left and the other on the right */
+.div4{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(27, 116, 233);
+  margin: 20px auto;
+  border-top-left-radius: 100px 70px; 
+ 
+}
+
+/* ------------------------------------------------------------- */
+
+<body>
+   <div class="div1"></div>
+   <div class="div2"></div>
+   <div class="div3"></div>
+   <div class="div4"></div>
+</body>
