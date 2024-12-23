@@ -1,0 +1,53 @@
+/*
+The Box Model And Box Sizing
+
+*/
+
+
+.div {
+  width: 600px;
+  height: 200px;
+  background-color: #eee;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.one{
+  width: 300px;
+  height: 40px;
+  background-color: #ffffff;
+  float: left;
+  margin: 20px auto;
+  border: 10px solid black;
+  box-sizing: content-box;
+  /* if i add this line  the element
+  will be grow or the width will add if i add a 
+  padding or a border */
+}
+
+.two{
+  width: 300px;
+  height: 40px;
+  background-color: #ffffff;
+  float: left;
+  margin: 20px auto;
+  border: 10px solid black;
+  box-sizing: border-box;
+  /* if i add this line the element
+  will be fixe even if i add a 
+  padding or a border */
+}
+
+/* ------------------------------------------------ */
+
+<body>
+    <div class="div">
+      <div class="one">one</div>
+      <div class="one">one</div>
+    </div>
+
+    <div class="div">
+      <div class="two">two</div>
+      <div class="two">two</div>
+    </div>
+</body>
