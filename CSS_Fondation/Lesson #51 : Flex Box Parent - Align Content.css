@@ -1,0 +1,59 @@
+/*
+  Flexible box
+  - display: flex => To start Flexible box 
+  - flex-direction: row => default value
+  - flex-wrap: nowrap => default value
+
+  => short hand : 
+  flex-flow: [flex-direction] [flex-wrap]
+
+ -----------------------------------------------
+
+  - justify-content: flex-start => default value
+  - justify-content: space-between => to add a space between element
+ 
+  ----------------------------------------------
+
+  - align-items: stretch => default value
+  - align-content: stretch => default value 
+    [to style all the content in the flex box verticly]
+
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.flex1 {
+  background-color: #d1d1d1;
+  padding: 10px;
+  margin: 20px auto;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.flex1 div {
+  text-align: center;
+  flex-wrap: wrap;
+  width: calc(100% / 3);
+  padding: 20px;
+  color: white;
+  background-color: rgb(72, 20, 193);
+}
+
+/* --------------------------------------------- */
+
+<body>
+    <h2>Flex1</h2>
+    <div class="flex1">
+      <div>one</div>
+      <div class="two">Two</div>
+      <div>three</div>
+      <div>four</div>
+    </div>
+</body>
