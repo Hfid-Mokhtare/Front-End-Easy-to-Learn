@@ -1,0 +1,79 @@
+/*
+  Flexible box
+  - display: flex => To start Flexible box 
+  - flex-direction: row => default value
+  - flex-wrap: nowrap => default value
+
+  => short hand : 
+  flex-flow: [flex-direction] [flex-wrap]
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+.flex {
+  background-color: #eee;
+  padding: 10px;
+  margin: 20px auto;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  /* | row-reverse | column | column-reverse | */
+  flex-wrap: nowrap;
+  /* | wrap | wrap-reverse | */
+  flex-flow: row nowrap;
+
+  
+}
+
+.flex div {
+  text-align: center;
+  flex-wrap: wrap;
+  width: 25%;
+  padding: 20px;
+  color: white;
+  background-color: red;
+}
+
+.float {
+  overflow: hidden;
+  background-color: #eee;
+  width: 600px;
+  padding: 10px;
+  margin: 20px auto;
+
+}
+
+.float div {
+  float: left;
+  text-align: center;
+  width: 25%;
+  padding: 20px;
+  color: white;
+  background-color: red;
+}
+
+/* ---------------------------------*/
+
+<body>
+    <h2>Flex</h2>
+    <div class="flex">
+      <div>one</div>
+      <div>Two</div>
+      <div>three</div>
+      <div>four</div>
+      <div>five</div>
+      
+
+    </div>
+    <hr />
+    <h2>Float</h2>
+    <div class="float">
+      <div>one</div>
+      <div>Two</div>
+      <div>three</div>
+      <div>four</div>
+      <div>five</div>
+    </div>
+  </body>
