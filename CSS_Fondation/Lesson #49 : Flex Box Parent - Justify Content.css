@@ -1,0 +1,79 @@
+/*
+  Flexible box
+  - display: flex => To start Flexible box 
+  - flex-direction: row => default value
+  - flex-wrap: nowrap => default value
+
+  => short hand : 
+  flex-flow: [flex-direction] [flex-wrap]
+
+  - justify-content: flex-start => default value
+  - justify-content: space-between => to add a space between element
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+.flex1 {
+  background-color: #eee;
+  padding: 10px;
+  margin: 20px auto;
+  width: 600px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  /* flex-end | center */
+  
+}
+
+.flex1 div {
+  text-align: center;
+  flex-wrap: wrap;
+  width: 25%;
+  padding: 20px;
+  color: white;
+  background-color: red;
+}
+
+.flex2 {
+  background-color: #eee;
+  padding: 10px;
+  margin: 20px auto;
+  width: 600px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-between ;
+   /* space-around | space-evenly */
+}
+
+.flex2 div {
+  text-align: center;
+  flex-wrap: wrap;
+  width:calc(98% / 3); 
+  /* to use space-between you have to minus
+   the space from the width of container*/
+  padding: 20px;
+  color: white;
+  background-color: red;
+}
+
+/* -------------------------------------------------------- */
+
+<body>
+    <h2>Flex1</h2>
+    <div class="flex1">
+      <div>one</div>
+      <div>Two</div>
+      <div>three</div>
+      <div>four</div>
+      <div>five</div>
+    </div>
+    <h2>Flex2</h2>
+    <div class="flex2">
+      <div>one</div>
+      <div>Two</div>
+      <div>three</div>
+      
+    </div>
+</body>
