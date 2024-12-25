@@ -1,0 +1,73 @@
+/*
+  Flexible box
+  - display: flex => To start Flexible box 
+  - flex-direction: row => default value
+  - flex-wrap: nowrap => default value
+
+  => short hand : 
+  flex-flow: [flex-direction] [flex-wrap]
+
+ -----------------------------------------------
+
+  - justify-content: flex-start => default value
+  - justify-content: space-between => to add a space between element
+ 
+  ----------------------------------------------
+
+  - align-items: stretch => default value
+  - align-content: stretch => default value 
+    [to style all the content in the flex box verticly]
+  
+    ----------------------------------------------
+
+  Four Child
+  - flex-grow: 0 => Default value
+  - flex-shrink: 1 => Default value
+  - order: 0 => Default value
+  
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.flex1 {
+  background-color: #a1a1a1;
+  padding: 10px;
+  margin: 20px auto;
+  width: 600px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  
+}
+
+.flex1 div {
+  background-color: rgb(72, 20, 193);
+  color: white;
+  width: 100px;
+  text-align: center;
+  padding: 20px;
+  margin-right: 5px;
+  flex-grow: 1;
+}
+
+/* ---------------------------------------------- */
+
+<body>
+    <h2>Flex1</h2>
+    <div class="flex1">
+      <div style="flex-shrink: 3">1</div>
+      <!-- 
+       the element grow 3 times than oter 
+       entel the width is fit 
+       -->
+      <div style="order: 6">2</div>
+      <div style="order: 5">3</div>
+      
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+    </div>
+</body>
