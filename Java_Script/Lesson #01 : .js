@@ -118,6 +118,23 @@
       }
       document.write(`${counter}</br>`);
 
+      // Exercice 14
+      var NumArr = [5, 66, 7];
+      let Num = 0;
+      for (let num of NumArr) {
+        if (num % 7 == 0) {
+          document.write(`${num} : s'est le prumier nombre divisible par 7 dans le tableau`)
+        }
+      }
+
+      // Exercie 15
+      var NumArr = [5, 66, 7, -11, 88, -33, -2, 0, 35, 12];
+      for (num of NumArr) {
+        if (num > 0) {
+          document.write(`${num} </br>`);
+        }
+      }
+
      
     </script>
   </body>
