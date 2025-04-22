@@ -1,0 +1,92 @@
+ - Data written inside curly braces {}
+ - Data contains key => Value
+ - key and value separated by colon : // key : value
+ - key should be wrapped in double quotes // "key" : value
+ - separated Data by coma (,){"key" : "value", "key" : "value"}
+ - can be written in one line or multiple lines depend on data
+ - square Drackets contains Arrays []
+ - curly Braces containes objects {}
+
+{
+  "UserName": "mohamed ali zeggaf",
+  "location": "tangier",
+  "amount": 600,
+  "skills": ["html", "css", "js"],
+  "countery": "morocco",
+  "addresses": {
+    "tangier": "address",
+    "rabat": "address",
+    "tetouan": ["one", "two", "three"]
+  },
+  "working": true,
+  "identity": null,
+
+  "skillsProgresse" : [
+    {
+        "html" : "50%"
+    },
+    {
+        "css" : "60%"
+    },
+    {
+        "js" : "70%"
+    }
+  ]
+}
+
+ <script>
+
+      let myJsonObject = `{
+    "UserName": "mohamed ali zeggaf",
+    "location": "tangier",
+    "amount": 600,
+    "skills": ["html", "css", "js"],
+    "countery": "morocco",
+    "addresses": {
+        "tangier": "address",
+        "rabat": "address",
+        "tetouan": ["one", "two", "three"]
+    },
+    "working": true,
+    "identity": null,
+
+    "skillsProgresse": [
+        {
+            "html": "50%"
+        },
+        {
+            "css": "60%"
+        },
+        {
+            "js": "70%"
+        }
+    ]
+}`;
+      console.log(myJsonObject);
+      console.log(typeof myJsonObject);
+
+
+
+      let jsObject = JSON.parse(myJsonObject);
+      console.log(jsObject.skillsProgresse[2].js);
+      console.log(typeof (jsObject));
+
+
+      let toJsonOb= JSON.stringify(jsObject);
+      console.log(toJsonOb);
+      console.log(typeof toJsonOb);
+     
+
+
+      document.writeln(jsObject.skillsProgresse[2].js);
+    </script>
+
+-----------------------------------------------------------------
+ <div>
+      <p id="UserName">my name is : </p>
+      <p id="age">my age is : </p>
+  </div>
+let jsObject= JSON.parse(myJsonObject);
+
+document.getElementById("UserName").innerHTML =  "my name is : "+jsObject.UserName;
+document.getElementById("age").innerHTML = "my age is : "+jsObject.age;
