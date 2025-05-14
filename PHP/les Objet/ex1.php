@@ -38,5 +38,4 @@ $voiture1->afficherDetails();
 $voiture1->accelerer(50);
 $voiture1->accelerer(100);
 $voiture1->accelerer(100); // Te
-
 ?>
