@@ -1,0 +1,34 @@
+ table {
+            width: 100%;
+            /* Make the table take full width of its container */
+            border-collapse: collapse;
+            /* Collapse borders for a clean look */
+            margin: 20px 0;
+            /* Add some space above and below the table */
+            font-family: Arial, sans-serif;
+            /* Choose a common, readable font */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Subtle shadow for depth */
+        }
+
+        /* Table Header (th) Styles */
+        th {
+            background-color: #0056b3;
+            /* Dark blue background for headers */
+            color: white;
+            /* White text for headers */
+            padding: 12px 15px;
+            /* Ample padding inside header cells */
+            text-align: left;
+            /* Align header text to the left */
+            font-weight: bold;
+            /* Bold text for emphasis */
+        }
+
+        /* Table Data (td) Styles */
+        td {
+            padding: 10px 15px;
+            /* Padding inside data cells */
+            border-bottom: 1px solid #ddd;
+            /* Light grey border at the bottom of each row */
+        }

@@ -1,6 +1,6 @@
 <?php 
     $servername="localhost";
-    $dbname="gestionStock";
+    $dbname="gestionstock";
     $username="root";
     $password="";
 try{
@@ -9,11 +9,5 @@ try{
 }catch(PDOException $e){
     echo "the connection to data base $dbname faild because : $e<br>";
 }
-
-session_start();
-
-$_SESSION['connexion'] = $connexion;
-
-
 
 ?>
