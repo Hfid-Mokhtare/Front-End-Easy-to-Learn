@@ -19,6 +19,8 @@ CREATE TABLE Produit (
     FOREIGN KEY (idCategorie) REFERENCES Categorie(idCategorie)
 );
 
+
+
 CREATE TABLE CompteProprietaire (
     loginProp VARCHAR(50) PRIMARY KEY,
     motPasse VARCHAR(100),

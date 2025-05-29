@@ -45,6 +45,14 @@ include("connexion.php");
                 <option value="">-- Choisir une catégorie --</option>
                 <?php
                 //req lust Categorie
+                $req_select_categories="SELECT * FROM categorie";
+                $statement=$connexion->prepare($req_select_categories);
+                $statement->execute();
+                $row_categorie=$statement->fetchALL(PDO::FETCH_ASSOC);
+
+                foreach($row_categorie as $categorie){
+                  echo '<option value="'.$categorie['idCategorie'].'">'.$categorie['denomination'].'</option>';
+                }
                 
                 ?>
               </select>

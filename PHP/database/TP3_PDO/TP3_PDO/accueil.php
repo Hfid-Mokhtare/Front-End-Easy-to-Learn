@@ -81,7 +81,9 @@ $row_user = $statement->fetchAll(PDO::FETCH_ASSOC);
             <tbody>
                 <?php
                 //b.	La liste des produits dans un tableau HTML
-                $req_select_products = "SELECT * FROM produit";
+                $req_select_products = "SELECT produit.*, categorie.denomination
+                                        FROM produit
+                                        INNER JOIN categorie ON produit.idCategorie = categorie.idCategorie order by produit.libelle;";
                 $statement = $connexion->prepare($req_select_products);
                 $statement->execute();
                 $row_products = $statement->fetchALL(PDO::FETCH_ASSOC);
@@ -91,9 +93,18 @@ $row_user = $statement->fetchAll(PDO::FETCH_ASSOC);
                         . $product['libelle'] . '</td><td>'
                         . $product['prixUnitaire'] . '</td><td>'
                         . $product['dateAchat'] . '</td><td><img src="media/' . $product['photoProduit'] . ' " width="50" height="50"></td><td>'
-                        . $product['idCategorie'] . '</td><td>Acti</td></tr>';
+                        . $product['denomination'] . '</td>
+                        <td>
+                            <a href="modifierProduit.php?Ref='.$product["reference"].'" class="btn btn-success btn-sm" title="Modifier">
+                                <i class="fas fa-pencil-alt"></i>
+                            </a>
+                            <a href="supprimerProduit.php?Ref='.$product["reference"].'" class="btn btn-danger btn-sm" title="Supprimer" onclick="return confirm("Êtes-vous sûr de vouloir supprimer cette catégorie ?");">
+                                <i class="fas fa-trash-alt"></i>
+                            </a>
+                        </td>
+                        </tr>';
                 }
-
+ 
                 ?>
             </tbody>
         </table>
