@@ -1,3 +1,0 @@
-<?php
-//code connexion db
-?>
