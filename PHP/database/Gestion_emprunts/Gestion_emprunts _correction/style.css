@@ -1,0 +1,94 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+        }
+        .form-container {
+            width: 300px;
+            margin: 40px auto;
+            padding: 20px 25px;
+            border: 1px solid #ff8000;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .form-container h2 {
+            color: #ff8000;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        input[type="text"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #ff8000;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #e67600;
+        }
+
+           .table-container {
+            width: 90%;
+            margin: 30px auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        table th {
+            background-color: #ff8000;
+            color: white;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        a.button-link {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 15px;
+            background-color: #ff8000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        a.button-link:hover {
+            background-color: #e67600;
+        }
+
+        td a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        td a:hover {
+            text-decoration: underline;
+        }
